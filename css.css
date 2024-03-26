@@ -1,0 +1,13 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 3.2rem;
+}
