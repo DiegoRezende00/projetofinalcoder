@@ -11,3 +11,6 @@ nav ul{
     flex-direction: row;
     gap: 3.2rem;
 }
+li{
+    list-style: none;
+}
