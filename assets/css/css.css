@@ -13,6 +13,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0.75%;
 }
 nav {
   display: flex;
@@ -22,25 +23,45 @@ nav {
   opacity: 1;
   visibility: visible;
 }
-nav ul {
+nav li {
   display: flex;
   flex-direction: row;
   gap: 3.2rem;  
   padding: 10px;
   border: 2px solid rgb(10, 10, 10) ;
+  background-color: black;
+  color: white;
   border-radius: 10px;
   align-items: center;
   justify-content: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.compra{
-  border: 2px solid black;
+nav ul{
   display: flex;
   flex-direction: row;
-  width: 12rem;
-  height: 2rem;
+  gap: 3.2rem;  
+  padding: 10px;
+}
+.menu a{
+  background-color: black;
+  color: white;
+}
+
+.compra a{
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  width: 8rem;
+  height: 2.5rem;
   align-items: center;
   justify-content: center;
+  border-radius: 50%;
+}
+.compra:hover{
+  transform-style: color rgb(255, 255, 255);  
+  transition: all;
+  transition: 1s;
 }
 /* .tabelas {
     border-collapse: collapse;
