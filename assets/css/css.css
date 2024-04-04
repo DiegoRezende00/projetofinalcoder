@@ -4,8 +4,8 @@
   vertical-align: baseline;
   list-style: none;
   border: 0;
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  background-color: #14035f;
+  color: rgb(255, 255, 255);
   list-style: none;
   text-decoration: none;
 }
@@ -14,6 +14,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0.75%;
+  background-color: #14035f
 }
 nav {
   display: flex;
@@ -48,8 +49,8 @@ nav ul{
 }
 
 .compra a{
-  background-color: black;
-  color: white;
+  background-color: rgb(253, 228, 0);
+  color: rgb(0, 0, 0);
   display: flex;
   flex-direction: row;
   width: 8rem;
@@ -63,6 +64,57 @@ nav ul{
   transition: all;
   transition: 1s;
 }
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75%;
+  background-color: #14035f
+}
+.redes{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.texto{
+  display: flex;
+  align-items:end;
+  justify-content:right;
+  padding: 0.25%;
+}
+div li {
+  display: flex;
+  flex-direction: row;
+  gap: 3.0rem;  
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+div ul{
+  display: flex;
+  flex-direction: row;
+  gap: 3.0rem;   
+  padding: 10px;
+}
+main{
+  background-color: white;
+}
+.container2 h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+  font-size: 50px;
+}
+p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* .tabelas {
     border-collapse: collapse;
     border: 2px solid rgb(140 140 140);
