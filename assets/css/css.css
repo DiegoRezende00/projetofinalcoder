@@ -11,38 +11,68 @@
 }
 .header{
   display: grid;
-  /* align-items: center;
+  grid-template-areas:
+  "logo nav compra";
+  justify-content: space-between;
+  gap: 250px;
+  align-items: center;
   justify-content: space-between;
   padding: 0.75%;
-  background-color: #14035f */
+  background-color: #14035f
 }
-/* nav {
+.navegacao {
+  grid-area: nav;
+  grid-template-columns: 1px;
+  display: flex;
+  justify-self: stretch;
+}
+/* div ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 3.0rem;
+  padding: 10px;
+}
+  
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   opacity: 1;
-  visibility: visible;
+  visibility: visible; */
+
+.compra{
+  grid-area: compra;
 }
+.logo{
+  grid-area: logo;
+  justify-content: start;
+}
+.logo2{
+  gap: 10px;
+  justify-content: start;
+}
+
 nav li {
   display: flex;
   flex-direction: row;
-  gap: 3.2rem;  
+  gap: 3.2rem;
   padding: 10px;
-  border: 2px solid rgb(10, 10, 10) ;
+  border: 2px solid rgb(10, 10, 10);
   background-color: black;
   color: white;
   border-radius: 10px;
   align-items: center;
   justify-content: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
-/* } */
-/* nav ul{
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; 
+ }
+  nav ul{
   display: flex;
   flex-direction: row;
-  gap: 3.2rem;  
+  gap: 3.2rem;
   padding: 10px;
-} */
+} 
+ /* 
 .menu a{
   background-color: black;
   color: white;
@@ -60,18 +90,18 @@ nav li {
   border-radius: 50%;
 }
 .compra:hover{
-  transform-style: color rgb(255, 255, 255);  
+  transform-style: color rgb(255, 255, 255);
   transition: all;
   transition: 1s;
 }
-/* .container{
+.container{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   padding: 0.75%;
   background-color: #14035f
-} */
+}
 .redes{
   display: flex;
   flex-direction: row;
@@ -87,18 +117,13 @@ nav li {
 div li {
   display: flex;
   flex-direction: row;
-  gap: 3.0rem;  
+  gap: 3.0rem;
   padding: 10px;
   align-items: center;
   justify-content: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-div ul{
-  display: flex;
-  flex-direction: row;
-  gap: 3.0rem;   
-  padding: 10px;
-}
+
 main{
   background-color: white;
 }
@@ -113,7 +138,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: center;
-}
+}  */
 
 /* .tabelas {
     border-collapse: collapse;

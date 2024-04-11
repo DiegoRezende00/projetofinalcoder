@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    background-color: #14035f;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    text-decoration: none;
+  }
+.header{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 
+    "logo navi comprar";
+    align-items: center;
+}
+.logo2{
+    grid-area: logo;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    grid-area: navi;
+    display: flex;
+    justify-content: space-around;
+}
+.compra{
+    grid-area: comprar;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav li{
+    gap: 3.2rem;
+    padding: 10px;
+    border: 2px solid rgb(10, 10, 10);
+    background-color: rgb(10, 10, 10);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; 
+}
+.menu a{
+    background-color: black;
+    color: white;
+}
+.compra a{
+    background-color: rgb(253, 228, 0);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    width: 8rem;
+    height: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
