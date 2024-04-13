@@ -70,17 +70,76 @@ nav li{
     padding: 20px;
     justify-content: center;
     align-items: center;
+    /* width: 80rem; */
 }
 .conteudo{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 3.2px;
+    gap: 50px;
 }
 .conteudo img{
-    border: solid rgb(255, 255, 255) 5px;
+    max-width: 45rem;
 }
-.imagens img{
-    border: solid rgb(255, 255, 255) 5px;
+.trailers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.info-trailer .conteudo .trailers{
+    display: flex;
+    /* backdrop-filter: 100px; */
+    height: 3rem;
+    margin-top: -2%;
+    position: absolute;
+    align-items: center;
+    width: 100%;
+}
+.info-trailer{
+    display: absolute;
+}
+.conteudo2 h2{
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-size: 4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+.imagens{
+    display: grid;
+    grid-template-areas: 
+    "img1 img2"
+    "img3 img4";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 3.2rem
+}
+.img1{
+    grid-area: img1;
 
-
+}
+.img2{
+    grid-area: img2;
+}
+.img3{
+    grid-area: img3;
+}
+.img4{
+    grid-area: img4;
+}
+.container4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteudo3{
+    display: grid;
+    grid-template-rows: 60%;
+}
+.redes ul{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 2.5rem;
+}
