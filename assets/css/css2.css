@@ -141,5 +141,11 @@ nav li{
     display: flex;
     justify-content: right;
     align-items: center;
+    margin-bottom: 2rem;
     gap: 2.5rem;
+}
+.texto{
+    display: flex;
+    justify-content:right;
+    margin-right: 1rem;
 }
