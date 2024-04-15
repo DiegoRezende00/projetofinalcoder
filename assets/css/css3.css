@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    background-color: #14035f;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "logo . ."
+    "logo navi comprar";
+
+
+}
+.logo2{
+    grid-area: logo;
+    display: flex;
+    align-items: center;
+}
+.conteudo3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 20px;
+    grid-template-areas: 
+    "logo . redes"
+    ". . texto";
+}
+.logo{
+    grid-area: logo;
+    display: flex;
+    align-items: center;
+}
+.redes{
+    grid-area: redes;
+    display: flex;
+    gap: 2.5rem;
+    justify-content: right;
+    align-items: center;
+}
+.redes ul{
+    display: flex;
+    gap: 2.5rem;
+}
+.texto{
+    grid-area: texto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}

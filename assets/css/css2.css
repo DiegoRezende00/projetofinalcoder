@@ -60,6 +60,11 @@ nav li{
     justify-content: center;
     border-radius: 50%;
 }
+.compra:hover{
+    transition: all;
+    transition: 1s;
+    transform-style: color rgb(177, 144, 0);
+}
 .container2 h1{
     display: flex;
     justify-content: center;
@@ -107,45 +112,41 @@ nav li{
     justify-content: center;
 }
 .imagens{
-    display: grid;
-    grid-template-areas: 
-    "img1 img2"
-    "img3 img4";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 3.2rem
-}
-.img1{
-    grid-area: img1;
-
-}
-.img2{
-    grid-area: img2;
-}
-.img3{
-    grid-area: img3;
-}
-.img4{
-    grid-area: img4;
-}
-.container4{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 2.5rem;
+    padding: 20px;
 }
 .conteudo3{
     display: grid;
-    grid-template-rows: 60%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 20px;
+    grid-template-areas: 
+    "logo . redes"
+    ". . texto";
+}
+.logo{
+    grid-area: logo;
+    display: flex;
+    align-items: center;
+}
+.redes{
+    grid-area: redes;
+    display: flex;
+    gap: 2.5rem;
+    justify-content: right;
+    align-items: center;
 }
 .redes ul{
     display: flex;
-    justify-content: right;
-    align-items: center;
-    margin-bottom: 2rem;
     gap: 2.5rem;
+    padding-right: 15px;
 }
 .texto{
+    grid-area: texto;
     display: flex;
-    justify-content:right;
-    margin-right: 1rem;
+    justify-content: right;
+    align-items: center;
+    padding-right: 15px;
 }
