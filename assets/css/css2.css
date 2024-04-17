@@ -9,12 +9,12 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    
+
   }
 .header{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-areas: 
+    grid-template-areas:
     "logo navi comprar";
     align-items: center;
 }
@@ -43,7 +43,7 @@ nav li{
     border-radius: 10px;
     align-items: center;
     justify-content: center;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; 
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .menu a{
     background-color: black;
@@ -63,7 +63,7 @@ nav li{
 .compra:hover{
     transition: all;
     transition: 1s;
-    transform-style: color rgb(177, 144, 0);
+    transform-style: solid rgb(204, 191, 3);
 }
 .container2 h1{
     display: flex;
@@ -77,12 +77,12 @@ nav li{
     align-items: center;
     /* width: 80rem; */
 }
-.conteudo{
+.conteudo1{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
 }
-.conteudo img{
+.conteudo1 img{
     max-width: 45rem;
 }
 .trailers{
@@ -90,7 +90,7 @@ nav li{
     justify-content: center;
     align-items: center;
 }
-.info-trailer .conteudo .trailers{
+.info-trailer .conteudo .icon-button .container3{
     display: flex;
     /* backdrop-filter: 100px; */
     height: 3rem;
@@ -99,9 +99,7 @@ nav li{
     align-items: center;
     width: 100%;
 }
-.info-trailer{
-    display: absolute;
-}
+
 .conteudo2 h2{
     display: flex;
     margin-top: 5rem;
@@ -112,17 +110,22 @@ nav li{
     justify-content: center;
 }
 .imagens{
+    position: relative;
+    z-index: 1;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    transition-property: transform;
+    transition-timing-function: var(--swiper-wrapper-transition-timing-function,initial);
+    box-sizing: content-box;
     gap: 2.5rem;
-    padding: 20px;
+    flex-direction: row;
+    user-select: none;
+    padding: 10px;
 }
 .conteudo3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 20px;
-    grid-template-areas: 
+    grid-template-areas:
     "logo . redes"
     ". . texto";
 }
@@ -150,3 +153,22 @@ nav li{
     align-items: center;
     padding-right: 15px;
 }
+.swipper{
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.swipper{
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    display: block;
+}
+element.style{
+    cursor: grab;
+    transform: translate3d(0px, 0px, 0px);
+    transition-duration: 0ms;
+} 
+
