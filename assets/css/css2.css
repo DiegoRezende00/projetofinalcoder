@@ -187,6 +187,17 @@ element.style{
     justify-content: center;
     align-items: center;
 }
+
+.imagem-descricao{
+    display: grid;
+    grid-template-columns: 50px;
+    grid-template-rows: 1fr 1fr;
+}
+.descricao-sledge{
+    grid-area: texto;
+    display: flex;
+    justify-content: end;
+}
 .imagens-defensores{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -207,5 +218,5 @@ div h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px; 
+    padding: 30px;
 }
