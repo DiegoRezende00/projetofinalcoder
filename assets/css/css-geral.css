@@ -67,27 +67,27 @@ nav li{
     transform-style: solid rgb(204, 191, 3);
 }
 /* MAIN - P e TRAILERS */
-.container2 h1{
+.div-banner h1{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.container2 p{
+.div-banner p{
     display: flex;
     padding: 20px;
     justify-content: center;
     align-items: center;
     /* width: 80rem; */
 }
-.conteudo1{
+.div-trailers{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
 }
-.conteudo1 img{
+.div-trailers img{
     max-width: 45rem;
 }
-.trailers{
+.sec-trailers{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,7 +102,7 @@ nav li{
     width: 100%;
 }
 /* MAIN - H2 e GALERIA DE IMAGENS */
-.conteudo2 h2{
+.div-galeria h2{
     display: flex;
     margin-top: 5rem;
     margin-bottom: 3rem;
@@ -124,7 +124,7 @@ nav li{
     padding: 10px;
 }
 /* FOOTER */
-.conteudo3{
+.div-footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 20px;
