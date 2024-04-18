@@ -10,48 +10,25 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-.header{
+.meu-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
-    "logo . ."
-    "logo navi comprar";
-
-
+    "header header header"
+    ". main ."
+    "footer footer footer";
 }
-.logo2{
-    grid-area: logo;
-    display: flex;
-    align-items: center;
+.container1{
+    grid-area: header;
 }
-.conteudo3{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 20px;
-    grid-template-areas: 
-    "logo . redes"
-    ". . texto";
+.main{
+    grid-area: main;
 }
-.logo{
-    grid-area: logo;
-    display: flex;
-    align-items: center;
+.footer{
+    grid-area: footer;
 }
-.redes{
-    grid-area: redes;
-    display: flex;
-    gap: 2.5rem;
-    justify-content: right;
-    align-items: center;
-}
-.redes ul{
-    display: flex;
-    gap: 2.5rem;
-}
-.texto{
-    grid-area: texto;
-    display: flex;
-    justify-content: right;
-    align-items: center;
+img{
+    max-width: 10px;
+    max-height: 10px;
 }
