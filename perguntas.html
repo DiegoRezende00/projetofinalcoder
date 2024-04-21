@@ -6,44 +6,23 @@
     <title>Projeto final CODER HOUSE</title>
     <link rel="stylesheet" href="./assets/css/css-geral.css" />
     <link rel="stylesheet" href="./assets/css/css-header.css" />
+    <link rel="stylesheet" href="./assets/css/css-compra.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div class="header">
-          <div class="logo">
-            <a href="index.html"
-              ><img
-                src="./assets/img/rainbow-sixlogo.png"
-                alt="logor6"
-                height="110"
-                width="280"
-            /></a>
-          </div>
-          <nav class="navegação">
-            <ul class="menu">
-              <li><a href="index.html">Mídia</a></li>
-              <li><a href="personagens.html">Personagens</a></li>
-              <li><a href="requisitos.html">Requisitos do sistema</a></li>
-              <li><a href="perguntas.html">Perguntas frequentes</a></li>
-            </ul>
-          </nav>
-          <div class="compra">
-            <a href="comprar.html">Comprar agora</a>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <main class="main">
-      <div>
-        <h1>Perguntas frequentes</h1>
-      </div>
-    </main>
-
-    <footer class="footer">
-      <div class="div-footer">
-        <div class="logo">
+    <div class="meu-grid">
+      <header class="header">
+        <!-- <div class="logo">
           <a href="index.html"
             ><img
               src="./assets/img/rainbow-sixlogo.png"
@@ -51,41 +30,125 @@
               height="110"
               width="280"
           /></a>
+        </div> -->
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"
+              ><img
+                src="./assets/img/rainbow-sixlogo.png"
+                alt="Bootstrap"
+                width="280"
+                height="110"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Mídia</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="personagens.html">Personagens</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="requisitos.html"
+                    >Requisitos do sistema</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="perguntas.html"
+                    >Perguntas frequentes</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="comprar.html"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown" href="comprar.html">Comprar agora</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <main class="main">
+        <div>
+          <h1>Perguntas frequentes</h1>
         </div>
-        <div class="redes">
-          <ul>
-            <li>
-              <a href="https://www.facebook.com/RainbowSixUK/" target="_blank"
-                ><img src="./assets/img/facebook-icon.png" alt="facebook-icon"
-              /></a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/rainbow6game/" target="_blank"
-                ><img
-                  src="./assets/img/instagram-icon.png"
-                  alt="instagram-icon"
-              /></a>
-            </li>
-            <li>
-              <a href="https://www.youtube.com/@Rainbow6BR" target="_blank"
-                ><img src="./assets/img/youtube-icon.png" alt="youtube-icon"
-              /></a>
-            </li>
-            <li>
-              <a
-                href="https://twitter.com/Rainbow6Game?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
-                target="_blank"
-                ><img src="./assets/img/twitter-icon.png" alt="twitter-icon"
-              /></a>
-            </li>
-          </ul>
+      </main>
+
+      <footer class="footer">
+        <div class="div-footer">
+          <div class="logo">
+            <a href="index.html"
+              ><img
+                src="./assets/img/rainbow-sixlogo.png"
+                alt="logo do site"
+                height="110"
+                width="280"
+            /></a>
+          </div>
+          <div class="redes">
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/RainbowSixUK/" target="_blank"
+                  ><img
+                    src="./assets/img/facebook-icon.png"
+                    alt="Ícone do facebook"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/rainbow6game/"
+                  target="_blank"
+                  ><img
+                    src="./assets/img/instagram-icon.png"
+                    alt="instagram-icon"
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/@Rainbow6BR" target="_blank"
+                  ><img
+                    src="./assets/img/youtube-icon.png"
+                    alt="Ícone do youtube"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/Rainbow6Game?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                  target="_blank"
+                  ><img
+                    src="./assets/img/twitter-icon.png"
+                    alt="Ícone do twitter"
+                /></a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="texto">
           Projeto de estudo desenvolvido por Diego Rezende da Coderhouse:
           Rainbow six siege
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
-
