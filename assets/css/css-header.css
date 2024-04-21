@@ -38,74 +38,23 @@
     text-decoration: none;
 }
 .card-img{
-    max-width: 200px;
-    max-height: 100px;
+    max-width: 100px;
+    max-height: 50px;
 }
-
-/*
-.header{
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-areas:
-    "logo navi comprar";
-    align-items: center;
-    background-color: rgb(209, 209, 209);
-}
-
-.header .logo-header{
-    grid-area: logo;
-    display: flex;
-    align-items: center;
-}
-.header .menu{
-    grid-area: navi;
-    display: flex;
-    justify-content: space-around;
-}
-.header .compra{
-    grid-area: comprar;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.header li{
-    gap: 3.2rem;
-    padding: 10px;
-    border: 2px solid rgb(0, 0, 0);
+/*COMPRAR AGORA*/
+.sec-button{
     background-color: rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    border-radius: solid 1.5px white;
 }
-.header li:hover{
-    transition: 1s;
-    background-color: rgb(48, 48, 47);
-}
-.header .menu :hover{
-    transition: 1s;
-    background-color: rgb(48, 48, 47);
-}
-.header .menu a{
+.sec-button button:hover{
     background-color: rgb(0, 0, 0);
-    color: rgb(209, 209, 209); 
-}
-.header .compra a{
-    background-color: rgb(253, 228, 0);
-    color: rgb(0, 0, 0);
-    display: flex;
-    flex-direction: row;
-    width: 8rem;
-    height: 2.5rem;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    transition: 0.5 ease;
-}
-.header .compra a:hover{
+    color: rgb(255, 255, 255);
+    border-radius: solid 1.5px white;
     transition: 1s;
-    background-color: rgb(204, 185, 11);
-} 
-*/
+}
+button{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+}
