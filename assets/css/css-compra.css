@@ -1,1 +1,17 @@
 
+.button{
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    padding: 10px;
+
+}
+.button a{
+    border-radius: solid 2px rgb(255,255,255);
+    text-decoration: none;
+    
+}
+.container{
+    color: aliceblue;
+    padding: 5px;
+}
