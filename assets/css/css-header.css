@@ -21,8 +21,13 @@
     background-color: black;
     padding: 5px 10px;
     border-radius: 20px;
-
 }
+.header ul li:hover{
+    transition: 1s;
+    background-color: rgb(59, 59, 59);
+    color: rgb(0, 0, 0);
+}
+
 .header .dropdown-menu{
     margin: 0px 5px;
     background-color:rgb(0, 0, 0);
