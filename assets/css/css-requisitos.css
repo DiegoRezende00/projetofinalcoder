@@ -28,7 +28,8 @@ h2{
 
 .div-requires h1{
     display: flex;
-    justify-content: start;
+    justify-content: center;
+    text-decoration: solid 2px underline;
     color: aliceblue;
     font-size: 3rem;
     padding: 20px;

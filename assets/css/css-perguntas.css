@@ -25,7 +25,19 @@ body, html{
 }
 div .h1-perguntas{
     display: flex;
+    justify-content: center;
+    text-decoration: solid 2px underline;
     color: aliceblue;
     font-size: 3rem;
     padding: 20px;
+}
+.questions img{
+    max-width: 75px;
+    max-height: 75px;
+    margin-top: 2rem;
+}
+.container h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
