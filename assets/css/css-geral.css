@@ -66,6 +66,7 @@
     color: aliceblue;
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
 /* MAIN - H2 e GALERIA DE IMAGENS */
 .sec-galeria h2{
