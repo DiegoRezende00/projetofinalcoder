@@ -2,16 +2,33 @@
 .button{
     display: flex;
     flex-direction: row;
-    gap: 2.5rem;
-    padding: 10px;
-
+    gap: 3rem;
+    padding: 30px;
 }
 .button a{
     border-radius: solid 2px rgb(255,255,255);
     text-decoration: none;
-    
 }
 .container{
     color: aliceblue;
-    padding: 5px;
+    padding: 2rem;
+    font-size: 25px;
+}
+.main{
+    height: 70vh;
+}
+@media screen and (max-width: 5000px){
+    .main{
+        height: 70vh;
+    }
+}
+@media screen and (max-width: 426px) {
+    .button{
+        display: flex;
+        flex-direction:column;
+    }
+    p{
+        display: flex;
+        font-size: 10px;
+    }
 }
