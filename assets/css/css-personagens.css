@@ -5,12 +5,14 @@
         grid-template-rows: 1fr 1fr 1fr;
         align-items: center;
         justify-content: center;
+        gap: 30px;
     }
     .card{
         display: flex;
         justify-content: center;
         align-items: center;
         max-width: 200px;
+        min-height: 500px
     }
     .meu-grid{
         display: grid;
@@ -123,5 +125,15 @@ div h2{
     align-items: center;
     padding: 30px;
     color: aliceblue;
+}
+.card{
+    min-height: 500px
+}
+.card-text{
+    padding: 8px;
+}
+.card-title{
+    display: flex;
+    justify-content: center;
 }
 
